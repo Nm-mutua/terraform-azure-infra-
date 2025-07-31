@@ -43,6 +43,15 @@ terraform plan                # Preview the changes
 terraform apply -auto-approve # Apply changes
 ```
 
+### Post-Deployment Configuration
+
+After successful provisioning with Terraform, the following configuration was performed on the Azure VM (`mtc-vm`):
+
+- ✅ Installed Docker Engine on Ubuntu 20.04 LTS  
+- 🔧 Verified installation using: `docker --version`  
+- 🐳 Purpose: Prepares the VM for container-based workloads (optional future expansion)
+- 📜 Installed via cloud-init script defined in [`customdata.tpl`](./customdata.tpl)
+
 ## Screenshot
 Terraform output after applying the configuration on Azure
 ![Terraform Output showing Azure resources](./terraform-output.png)
