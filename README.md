@@ -15,6 +15,7 @@ This project provisions a complete Azure infrastructure using Terraform, includi
 ```bash
 .
 ## Project Structure
+
 ```
 .
 ├── main.tf                  # Main Terraform configuration
