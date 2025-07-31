@@ -29,8 +29,9 @@ This project provisions a complete Azure infrastructure using Terraform, includi
 ### Prerequisites
 
 - Terraform v1.4+
-- Azure CLI logged in (`az login`)
-- SSH key pair generated (saved as `~/.ssh/mtcazurekey` and `mtcazurekey.pub`)
+- Azure CLI
+- SSH (Cloud-init)
+- Ubuntu 20.04 LTS
 
 ### Usage
 
