@@ -40,7 +40,7 @@ terraform apply -auto-approve # Apply changes
 
 ## Screenshot
 Terraform output after applying the configuration on Azure
-![Terraform Output showing Azure resources](./screenshots/terraform-output.png)
+![Terraform Output showing Azure resources](./terraform-output.png)
 
 ## Planned Enhancements (Roadmap)
 - [] 🔧 Integrate Ansible to configure Apache and harden the VM
