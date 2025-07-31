@@ -12,9 +12,6 @@ This project provisions a complete Azure infrastructure using Terraform, includi
 ---
 
 ## Project Structure
-```bash
-.
-## Project Structure
 
 ```
 .
@@ -25,8 +22,6 @@ This project provisions a complete Azure infrastructure using Terraform, includi
 ├── .terraform.lock.hcl      # Dependency lock file for Terraform
 ├── terraform-output.png     # Screenshot of Azure portal output
 └── README.md                # Project documentation
-```
-
 ```
 
 ##  Getting Started
