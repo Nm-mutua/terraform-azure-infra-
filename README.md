@@ -14,9 +14,12 @@ This project provisions a complete Azure infrastructure using Terraform, includi
 ## Project Structure
 ```bash
 .
-├── main.tf              # Main Terraform config
-├── customdata.tpl       # cloud-init for provisioning
+├── main.tf         
+variables.tf
+osx.tfvars
 ├── .gitignore
+.terraform.lock.hcl
+terraform-output.png
 └── README.md
 ```
 
