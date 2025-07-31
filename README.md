@@ -63,5 +63,7 @@ GitHub Profile: [**Nm-mutua**](https://github.com/Nm-mutua)
 ## Credits   
 This project is inspired by the [freeCodeCamp Terraform on Azure tutorial](https://www.youtube.com/watch?v=V53AHWun17s)
 
+## License
+This project is licensed under the [MIT License](./LICENSE).
 
   
