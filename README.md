@@ -15,7 +15,7 @@ This project provisions a complete Azure infrastructure using Terraform, includi
 ```bash
 .
 ## Project Structure
-```bash
+```
 .
 ├── main.tf                  # Main Terraform configuration
 ├── variables.tf             # Declares input variables
